@@ -1,7 +1,8 @@
-letter=input('Enter a letter: ')
-if letter in {'a','e','i','o','u'}:
-    print(letter,'is a vowel')
-elif letter=='y':
-    print(letter,'sometimes is a consonant and sometimes is a vowel')
+L =  input('Enter a letter: ')
+
+if L == 'a' or L == 'e' or L == 'i' or L == 'o' or L == 'u':
+    print(L, 'is a vowel.')
+elif L == 'y':
+    print(L,'could be both a vowel and a consonant under certain linguistic circumstances.')
 else:
-    print(letter,'is a consonant')
+    print('The letter',L,'is consonant.')
